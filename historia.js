@@ -178,7 +178,7 @@ escolhas: [
     capitulo: "FINAL 05 DE 12",
     titulo: "Se nunca tivéssemos nos reencontrado",
     texto: "A infância teria ficado apenas como uma lembrança distante. Nenhuma noite na Uzna, nenhum gelato, nenhuma carta de namoro.\n\nCada um teria seguido sua própria vida, conhecendo outras pessoas e criando memórias que jamais incluiriam essa história.\n\nTalvez nunca sentissem falta de algo que não chegaram a conhecer. E essa é a parte curiosa das possibilidades: algumas vidas mudam por causa de encontros; outras nunca chegam a saber o que perderam ou ganharam.",
-    imagem: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=85",
+   imagem: "https://miro.medium.com/v2/resize:fit:1400/1%2AcrfqCZjLG-yH6UrTZ4nAcg.jpeg",
     pergunta: "E se aquele reencontro nunca tivesse acontecido?",
     escolhas: [{ texto: "Explorar outra versão.", destino: "inicio" }]
   },
