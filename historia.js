@@ -1,14 +1,10 @@
 
-const historia = {
-  inicio: {
-    capitulo: "PRÓLOGO",
-    titulo: "Toda história tem escolhas.",
-    texto: "Essa é a nossa. E agora, você poderá descobrir como ela poderia ter sido diferente.\n\nAlguns encontros mudam uma vida. Outros deixam uma pergunta que acompanha a gente por muito tempo.",
-    imagem: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=85",
-    pergunta: "Você está pronta para conhecer outras versões dessa história?",
-    escolhas: [
-      { texto: "Começar a história", destino: "infancia" }
-    ]
+escolhas: [
+  { texto: "Começar a história", destino: "infancia" },
+  { texto: "Explorar uma vida diferente", destino: "final11" },
+  { texto: "Ler a carta final", destino: "final12" }
+]
+
   },
 
   infancia: {
