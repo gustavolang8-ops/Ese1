@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100e12">
+  <meta name="description" content="Uma história de encontros, escolhas, amor e possibilidades.">
+  <title>E se tivesse sido diferente?</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="historia.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="logo" id="logo">Nossa História<span>✦</span></a>
+    <nav>
+      <button id="inicioNav">Início</button>
+      <button id="historiaNav">Nossa história</button>
+      <button id="decisoesNav">Decisões</button>
+    </nav>
+    <span class="top-label">UMA HISTÓRIA INTERATIVA</span>
+  </header>
+
+  <main>
+    <section id="capa" class="cover">
+      <div class="cover-content">
+        <span class="eyebrow">UMA HISTÓRIA SOBRE ESCOLHAS</span>
+        <h1>E se tivesse<br>sido <em>diferente?</em></h1>
+        <p>Algumas histórias começam muito antes de duas pessoas perceberem que estão escrevendo uma história juntas.</p>
+        <button class="button primary" id="comecar">Assistir à história <span>→</span></button>
+        <span class="cover-note">Inspirada em encontros, lembranças e possibilidades.</span>
+      </div>
+      <span class="cover-caption">CAPÍTULO 01 · O COMEÇO DE TUDO</span>
+    </section>
+
+    <section id="filme" class="movie hidden">
+      <div class="scene-image" id="imagemCena">
+        <div class="image-shade"></div>
+        <span class="scene-number" id="numeroCena"></span>
+      </div>
+
+      <article class="scene-content">
+        <div class="progress-track"><div id="progresso"></div></div>
+        <span class="eyebrow" id="categoria"></span>
+        <h2 id="titulo"></h2>
+        <div id="texto" class="narrative"></div>
+        <p id="pergunta" class="question"></p>
+        <div id="escolhas" class="choices"></div>
+        <button id="voltar" class="text-button">← Cena anterior</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>NOSSA HISTÓRIA ✦</span>
+    <p>Algumas histórias mudam. Outras nos mudam.</p>
+  </footer>
+</body>
+</html>
